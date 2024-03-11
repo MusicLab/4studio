@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  text-decoration: none;
+  border-radius: 20px; /* Bordes redondeados */
+  border: none; /* Quita el borde */
+  transition: background-color 0.3s; /* Efecto de transición para el cambio de color */
+}
+
+.button:hover {
+  background-color: #2980b9; /* Cambia el color de fondo al pasar el mouse */
+}
+
+body {
+  font-family: 'Myriad Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #08153a; /* Fondo azul */
+  text-align: center;
+}
+
+.logo {
+  text-align: left;
+  padding: 10px;
+  margin:10px;
+  margin-left:40px;
+  margin-bottom: 20px
+}
+
+.leyenda {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  margin-left: 95px;
+}
+
+.contacto {
+  margin-top: 50px;
+  font-size: 10px;
+  text-align: left;
+  padding: 20px;
+  margin-left: 90px;
+}
+
+
+.izquierda {
+  float: left;
+
+  text-align: left;
+  margin-left: -440px;
+  margin-top: 40px;
+  margin-right: 250px
+}
+
+.blanco {
+  color:rgb(255, 255, 255);
+}
+
+.blanco-ofi {
+  color:rgb(255, 255, 255);
+  margin-left: 40px
+}
+
+.blanco-dire {
+  color:rgb(255, 255, 255);
+  margin-left: 40px 
+}
+
+.azul {
+  color:rgb(80, 103, 156)
+}
+
+
+
+.derecha {
+  float: right;
+
+
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 40px;
+  
+}
+
+
+.sin-puntos {
+  list-style-type: none;
+}
+
+
+.contenedor {
+  display: inline-block;
+}
