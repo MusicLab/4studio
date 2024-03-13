@@ -1,10 +1,22 @@
 .App {
-  text-align: center;
+
+  display:flex;
+  margin-left:-10rem;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none; /* Quita el subrayado */
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: underline; /* Añade subrayado cuando el mouse está encima */
 }
 
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
   background-color: #3498db; /* Color de fondo del botón */
   color: #fff; /* Color del texto del botón */
   text-decoration: none;
@@ -27,36 +39,33 @@ body {
 
 .logo {
   text-align: left;
-  padding: 10px;
-  margin:10px;
-  margin-left:40px;
-  margin-bottom: 20px
+  padding: 1rem;
+  margin:1rem;
+  margin-left:2rem;
+  margin-bottom: 1rem
 }
 
 .leyenda {
-  font-size: 50px;
+  font-size: 4rem;
   color: white;
-  padding: 10px;
+  padding: 1rem;
   text-align: left;
-  margin-left: 95px;
+  margin-left: 5rem;
 }
 
 .contacto {
-  margin-top: 50px;
-  font-size: 10px;
+  margin-top: 2rem;
+  font-size: 1rem;
   text-align: left;
-  padding: 20px;
-  margin-left: 90px;
+  padding: 2rem;
+  margin-left: 4rem;
 }
 
 
 .izquierda {
-  float: left;
-
+  width: 50%;
   text-align: left;
-  margin-left: -440px;
-  margin-top: 40px;
-  margin-right: 250px
+  padding: 4rem;
 }
 
 .blanco {
@@ -65,12 +74,12 @@ body {
 
 .blanco-ofi {
   color:rgb(255, 255, 255);
-  margin-left: 40px
+  margin-left: 2.5rem
 }
 
 .blanco-dire {
   color:rgb(255, 255, 255);
-  margin-left: 40px 
+  margin-left: 2.5rem 
 }
 
 .azul {
@@ -80,13 +89,10 @@ body {
 
 
 .derecha {
-  float: right;
-
-
+  width: 50%;
   text-align: left;
-  margin-left: 0px;
-  margin-top: 40px;
-  
+  padding: 4rem;
+  flex-shrink: 0;
 }
 
 
@@ -96,5 +102,22 @@ body {
 
 
 .contenedor {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-from-bottom {
+  display: flex;
+  justify-content: space-between;
+  animation: slideInFromBottom 0.5s ease-out;
 }
