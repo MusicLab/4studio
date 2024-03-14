@@ -21,7 +21,7 @@ function App() {
         <div class="leyenda">Diseñamos y construimos stands</div>
 
         <div class="contacto">
-          <a href="#" class="button">CONTACTO</a>
+          <a href="mailto:roxana@studio4ss.com" class="button">CONTACTO</a>
         </div>
 
         <div className={`slide-from-bottom ${showDiv ? 'visible' : ''}`}>
@@ -35,16 +35,16 @@ function App() {
               </ul>
             </div>
             <div class="derecha">
-              <div class= "blanco-dire">Arribeños 3230 Piso 3 dpto 9</div>
+              <div class= "blanco-dire">Arribeños 3230 Piso 3 dpto 9, Bs As,  Argentina.</div>
               <ul class="sin-puntos">
                 <li class= "blanco">
-                  <a href="https://www.behance.net/studio4ss">@studio4</a>
+                  <a href="https://www.behance.net/studio4ss">@studio4ss</a>
                 </li>
                 <li class= "blanco">
-                  <a href="https://www.instagram.com/studio_4ss/">studio_4ss</a>
+                  <a href="https://www.instagram.com/studio_4ss/">@studio_4ss</a>
                 </li>
                 <li class= "blanco">
-                  <a href="mailto:Hola@studio4ss.com">roxana@studio4ss.com</a>
+                  <a href="mailto:roxana@studio4ss.com">roxana@studio4ss.com</a>
                 </li>
               </ul>
             </div>
